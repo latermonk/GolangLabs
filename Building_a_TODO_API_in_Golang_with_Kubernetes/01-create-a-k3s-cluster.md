@@ -30,3 +30,20 @@ kubectl get cs
 kubectl get nodes
 ```
 
+
+##  kubectl sheetcheet
+
+```
+source <(kubectl completion bash) 
+echo "source <(kubectl completion bash)" >> ~/.bashrc 
+```
+
+**vim  ~/.bashrc**
+
+```
+alias k=kubectl
+complete -F __start_kubectl k
+
+```
+
+
