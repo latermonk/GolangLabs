@@ -3,7 +3,7 @@
 
 
 ```
-apt install nload  -y
+apt update  &&  apt install nload  -y
 ```
 
 ```
