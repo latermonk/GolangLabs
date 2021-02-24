@@ -1,6 +1,11 @@
 #   INSTALLDOCKER   &  KUBECTL
 
 
+
+```
+apt install nload  -y
+```
+
 ```
 
 snap install docker
