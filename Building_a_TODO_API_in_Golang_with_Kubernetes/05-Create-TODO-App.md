@@ -26,6 +26,10 @@ git clone https://github.com/alexellis/kubernetes-todo-go-app
 
 curl http://127.0.0.1:8080/function/todo
 
+{
+ "description": "Run faas-cli up"
+}
+
 
 ```
 
