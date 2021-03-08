@@ -58,3 +58,10 @@ complete -F __start_kubectl k
 ```
 
 
+
+
+**REFERENCE**
+
+https://rancher.com/blog/2020/set-up-k3s-high-availability-using-k3d           
+
+
