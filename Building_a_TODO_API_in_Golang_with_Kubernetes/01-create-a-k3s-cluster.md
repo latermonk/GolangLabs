@@ -50,7 +50,7 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc
 **vim  ~/.bashrc**
 
 ```
-alias k=kubectl
+alias k=kubectl   
 complete -F __start_kubectl k
 
 ```
