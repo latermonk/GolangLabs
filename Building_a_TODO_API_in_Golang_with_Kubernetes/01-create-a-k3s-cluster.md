@@ -22,6 +22,7 @@ k3d cluster create mycluster
 ```
 
 ##   You can now use it like this:
+
 ```
 kubectl config use-context k3d-mycluster
 kubectl cluster-info
@@ -33,11 +34,12 @@ kubectl cluster-info
 
 ```
 
-kubectl get cs
+kubectl get cs    
 
 
 kubectl get nodes
 ```
+
 
 
 ##  kubectl sheetcheet
