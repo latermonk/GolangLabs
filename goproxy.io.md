@@ -1,4 +1,7 @@
-#  Setting
+#  goproxy IO
+
+https://goproxy.io/     
+##  Setting
 
 **Mac/Linux**
 ```shell
@@ -13,6 +16,11 @@ $env:GOPROXY="https://goproxy.io,direct"
 
 #  Reference :
 
-https://goproxy.io/     
 
 
+
+
+
+#  goproxy 中国
+
+https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md   
