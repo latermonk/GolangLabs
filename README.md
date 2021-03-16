@@ -22,3 +22,9 @@ https://github.com/staffjoy/v2
 
 https://github.com/spring2go              
 
+
+
+----
+
+#   告别GOPATH，快速使用 go mod（Golang包管理工具）
+https://www.jianshu.com/p/bbed916d16ea       
