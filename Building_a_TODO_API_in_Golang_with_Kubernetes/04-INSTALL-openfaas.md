@@ -28,12 +28,6 @@ echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 faas-cli store deploy figlet
 faas-cli list
 
-# For Raspberry Pi
-faas-cli store list \
- --platform armhf
-
-faas-cli store deploy figlet \
- --platform armhf
 
 # Find out more at:
 # https://github.com/openfaas/faas
