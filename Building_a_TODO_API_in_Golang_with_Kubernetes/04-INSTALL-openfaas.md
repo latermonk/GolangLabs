@@ -33,9 +33,15 @@ echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 ![openfaas-ui](_image/openfaas-ui.jpg)
 
 
+# Deploy an App
 
+```
 faas-cli store deploy figlet
+
 faas-cli list
+
+```
+
 
 
 # Find out more at:
