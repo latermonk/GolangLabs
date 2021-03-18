@@ -25,6 +25,15 @@ kubectl port-forward -n openfaas svc/gateway 8080:8080 &
 PASSWORD=$(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode; echo)
 echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 
+
+
+#  Open-faas  UI with admin & $PASSWORD
+
+
+![openfaas-ui](_image/openfaas-ui.jpg)
+
+
+
 faas-cli store deploy figlet
 faas-cli list
 
