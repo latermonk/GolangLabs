@@ -17,7 +17,7 @@ consul -autocomplete-install
 ```
 
 
-##  start 
+##  START
 
 ```
 consul  agent  -dev
