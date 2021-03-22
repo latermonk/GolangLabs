@@ -1,0 +1,2 @@
+{"check": {"name": "ping",
+  "args": ["ping", "-c1", "baidu.com"], "interval": "30s"}}
