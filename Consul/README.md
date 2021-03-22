@@ -24,3 +24,11 @@ consul  agent  -dev
 ```
 
 
+
+
+#  教程
+
+https://kingfree.gitbook.io/consul/      
+
+
+https://legacy.gitbook.com/book/vincentmi/consul-guide      
