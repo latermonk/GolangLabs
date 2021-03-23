@@ -1,6 +1,10 @@
 #  go-micro 
 
 
+#  Go Micro on Kubernetes: Getting started
+https://itnext.io/go-micro-on-kubernetes-getting-started-2959dd6c2d4f   
+
+
 #  中文文档
 
 https://learnku.com/docs/go-micro/3.x/home/9332   
