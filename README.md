@@ -1,4 +1,12 @@
 # Golang
+##  代码提示
+```
+goproxy=https://goproxy.cn,direct   
+
+```
+
+
+
 
 ##  Building a TODO API in Golang with Kubernetes
 
