@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworld
+  namespace: micro
+  labels:
+    project: micro
+    micro: service
+    name: helloworld
+    version: latest
+spec:
+  selector:
+    matchLabels:
+      micro: service
+      name: helloworld
+      version: latest
+  template:
+    metadata:
+      labels:
+        project: micro
+        micro: service
+        name: helloworld
+        version: latest
+    spec:
+      tolerations:
+        - key: "project"
+          operator: "Equal"
+          value: "micro"
+          effect: "NoSchedule"
+      containers:
+      - name: helloworld
+        image: jmrobles/micro-helloworld
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 443
+        env:
+          - name: "MICRO_API_ADDRESS" 
+            value: "443"
+          - name: "MICRO_PROXY"
+            value: "network.micro.svc.cluster.local:8443"
+          - name: "MICRO_SERVER_IMAGE"
+            value: "micro/micro:latest"
+          - name: "MICRO_SERVICE_ADDRESS"
+            value: ":8080"
+        envFrom:
+          - secretRef:
+              name: api-latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: helloworld
+  namespace: micro
+spec:
+  selector:
+    micro: service
+    name: helloworld
+    version: latest
+  ports:
+  - port: 8080
+    targetPort: 8080
