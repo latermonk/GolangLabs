@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: micro-api-ingress
+  namespace: micro
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/issuer: "micro-prod"
+spec:
+  rules:
+  - host: yourhost.com
+    http:
+      paths:
+      - backend:
+          serviceName: api
+          servicePort: 443
+        path: /
+  tls:
+    - hosts:
+      - yourhost
+      secretName: micro-cert-tls
