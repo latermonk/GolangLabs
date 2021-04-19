@@ -1,3 +1,9 @@
+#   Gin Example   
+
+https://github.com/EDDYCJY/go-gin-example/blob/master/README_ZH.md 
+
+
+
 #  Gin Web FrameWork
 
 https://gin-gonic.com/   
