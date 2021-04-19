@@ -1,4 +1,5 @@
 #   Gin Example   
+https://eddycjy.com/posts/   
 
 https://github.com/EDDYCJY/go-gin-example/blob/master/README_ZH.md 
 
