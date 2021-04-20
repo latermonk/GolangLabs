@@ -1,5 +1,18 @@
 # Golang
 
+##  Go 语言编程之旅：一起用 Go 做项目     
+https://golang2.eddycjy.com/    
+
+
+##  跟煎鱼学 Go
+https://eddycjy.com/go-categories/    
+
+
+-----
+
+
+
+##  prometheus  client_golang   
 
 https://github.com/prometheus/client_golang   
 
