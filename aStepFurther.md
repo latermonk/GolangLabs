@@ -2,7 +2,7 @@
 
 ##  尚硅谷区块链教程-webDev
 **视频**
-https://www.bilibili.com/video/BV1pv411B7hc?from=search&seid=10556368455832504149
+B站 go web
 
 
 **讲义**
