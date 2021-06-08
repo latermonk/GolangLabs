@@ -7,7 +7,7 @@ B站 go web
 
 **讲义**
 
-
+---
 
 ##   bilibili七米老师的视频教程：  基于gin框架和gorm的web开发实战 (七米出品)
       
@@ -46,4 +46,13 @@ https://study.163.com/course/introduction.htm?courseId=1210171207
 
 
 **笔记**   
+
+
+
+
+---
+##    imooc Go开发工程师 
+https://class.imooc.com/go
+---
+
 
