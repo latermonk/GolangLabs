@@ -1,3 +1,20 @@
+
+#  goproxy 七牛
+```shell
+https://goproxy.cn/
+```
+
+https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md   
+
+
+
+
+#   goproxy  alibaba 
+https://mirrors.aliyun.com/goproxy
+
+
+
+
 #  goproxy.io
 
 https://goproxy.io/     
@@ -15,20 +32,6 @@ $env:GOPROXY="https://goproxy.io,direct"
 
 
 ---
-
-
-
-
-
-#  goproxy 中国
-```shell
-https://goproxy.cn/
-```
-
-https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md   
-
-
-
 
 
 #   win 10 setting 
