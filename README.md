@@ -1,5 +1,13 @@
 # Golang
 
+
+```
+curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh | sh -s
+
+```
+
+
+
 ##  Go 语言编程之旅：一起用 Go 做项目     
 https://golang2.eddycjy.com/    
 **源码**     
