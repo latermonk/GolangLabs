@@ -1,11 +1,24 @@
 # Golang
 
 
+#  air
 ```
 curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh | sh -s
 
 ```
+#  goorm 
 
+https://gorm.io/docs/
+
+
+
+
+
+
+
+
+
+---
 
 
 ##  Go 语言编程之旅：一起用 Go 做项目     
