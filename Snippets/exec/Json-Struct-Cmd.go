@@ -1,3 +1,6 @@
+//   https://studygolang.com/articles/3990
+
+
 package main
 
 import (
