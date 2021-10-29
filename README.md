@@ -1,5 +1,8 @@
 # Golang
 
+# golang  spec
+
+https://golang.google.cn/ref/spec    
 
 #  golang 标准库  
 
