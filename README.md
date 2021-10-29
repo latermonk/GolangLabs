@@ -1,6 +1,10 @@
 # Golang
 
 
+#  golang 标准库  
+
+https://pkg.go.dev/std
+
 # go manual
 
 https://www.runoob.com/go  
