@@ -1,5 +1,9 @@
 # Golang
 
+# Jason - go struc  
+
+https://mholt.github.io/json-to-go/   
+
 # golang  spec
 
 https://golang.google.cn/ref/spec    
