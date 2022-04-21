@@ -15,7 +15,7 @@ https://blog.csdn.net/weixin_44001521/article/details/108060855
 
 
 
-##   https://github.com/ghodss/yaml
+##   github.com/ghodss/yaml
 
 https://github.com/ghodss/yaml
 
