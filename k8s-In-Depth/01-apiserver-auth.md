@@ -168,3 +168,30 @@ roleRef:
 EOF
 ```
 
+```bash
+k apply -f rolebinding.yaml
+```
+
+再次访问：   
+
+```bash
+curl --cacert ${CACERT} --header "Authorization: Bearer token1" -X GET ${APISERVER}/api/v1/namespaces
+```
+
+结果就能看了 ：   
+
+```
+{
+  "kind": "NamespaceList",
+  "apiVersion": "v1",
+  "metadata": {
+    "resourceVersion": "1366"
+  },
+```
+
+为什么？   
+
+因为user 所在的 group 绑定了 cluster-admin 这个 ClusterRole     
+
+
+
