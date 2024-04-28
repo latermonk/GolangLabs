@@ -51,7 +51,7 @@ curl -k $API_SERVER_URL/api/v1/namespaces
     "kind": "namespaces"
   },
   "code": 403
-}%
+}
 ```
 
 ```
@@ -144,7 +144,7 @@ curl --cacert ${CACERT} --header "Authorization: Bearer token1" -X GET ${APISERV
     "kind": "namespaces"
   },
   "code": 403
-}%
+}
 ```
 
 说明用户已经识别出来了，但是权限不够， 怎么办？   
