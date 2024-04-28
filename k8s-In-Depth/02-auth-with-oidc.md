@@ -12,7 +12,7 @@ minikube start --addons=ingress --vm=true --memory=8192 --cpus=4
 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.14.5/cert-manager.yaml	
 ```
 
-https://cert-manager.io/docs/installation/        
+
 
 ```bash
 kubectl wait --for=condition=ready pod -l app.kubernetes.io/component=controller -n cert-manager --timeout=60s && \
@@ -268,4 +268,9 @@ https://www.keycloak.org/getting-started/getting-started-kube
 
 https://eclipse.dev/che/docs/stable/administration-guide/installing-che-on-minikube-keycloak-oidc/   
 
-https://help.aliyun.com/zh/ack/serverless-kubernetes/use-keycloak-oidc-provider-for-identity-authentication  
+https://help.aliyun.com/zh/ack/serverless-kubernetes/use-keycloak-oidc-provider-for-identity-authentication   
+
+https://cert-manager.io/docs/installation/          
+
+
+
