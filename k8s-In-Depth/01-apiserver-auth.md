@@ -62,7 +62,7 @@ minikube delete
 
 Create dir:  
 
-```
+```bash
 mkdir -p ~/.minikube/files/etc/ca-certificates
 cd ~/.minikube/files/etc/ca-certificates
 
@@ -84,8 +84,8 @@ EOF
 
 Start minikube with:   
 
-```
-ca-certificates minikube start \
+```bash
+minikube start \
   --extra-config=apiserver.token-auth-file=/etc/ca-certificates/tokens.csv
 ```
 
