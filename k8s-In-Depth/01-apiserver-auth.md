@@ -34,7 +34,7 @@ how to fix it, please visit the web page mentioned above.
 SSL问题，加上参数 -k 
 
 ```bash
-curl $API_SERVER_URL/api/v1/namespaces
+curl -k $API_SERVER_URL/api/v1/namespaces
 ```
 
 输出：  
