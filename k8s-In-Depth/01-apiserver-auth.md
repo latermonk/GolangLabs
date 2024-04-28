@@ -123,7 +123,7 @@ curl --cacert ${CACERT} -X GET ${APISERVER}/api/v1/namespaces
     "kind": "namespaces"
   },
   "code": 403
-}%
+}
 ```
 
 
