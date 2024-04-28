@@ -180,13 +180,15 @@ curl --cacert ${CACERT} --header "Authorization: Bearer token1" -X GET ${APISERV
 
 结果就能看了 ：   
 
-```
+```json
 {
   "kind": "NamespaceList",
   "apiVersion": "v1",
   "metadata": {
     "resourceVersion": "1366"
   },
+  ...
+}
 ```
 
 为什么？   
