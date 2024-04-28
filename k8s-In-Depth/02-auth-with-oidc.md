@@ -241,9 +241,22 @@ kubectl exec deploy/keycloak -n keycloak -- bash -c \
 
 ## 03 get token from oidc
 
+```bash
+curl -ks -X POST https://${Keycloak服务域名}/realms/myrealm/protocol/openid-connect/token \
+-d grant_type=password -d client_id=ack \
+-d username=myuser -d password=${已设置的用于登录Keycloak的密码} -d scope=openid \
+-d client_secret=${client credential}
+```
+
+
+
 ## 04 access apiserver with token  
 
 
+
+```bash
+curl -k https://${API server地址}/api/v1/namespaces -H "Authorization: Bearer ${id token}"
+```
 
 
 
