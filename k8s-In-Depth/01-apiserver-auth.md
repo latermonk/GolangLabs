@@ -195,3 +195,20 @@ curl --cacert ${CACERT} --header "Authorization: Bearer token1" -X GET ${APISERV
 
 
 
+
+
+
+
+---
+
+# HTTP 4xx code: 
+
+```
+400 - Bad Request：请求存在语法错误，服务器无法理解。
+401 - Unauthorized：请求需要用户身份验证，但提供的凭据被拒绝。
+403 - Forbidden：服务器理解请求，但拒绝响应。
+404 - Not Found：请求的资源未找到。
+```
+
+
+
