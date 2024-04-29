@@ -1,10 +1,10 @@
 # APIserver  
 
-理解了，让我们为每个小节都添加相应的实战演练：
+APIServer 理论与实践   
 
 
 
-\### 1. 介绍 Kubernetes 和 API Server
+\###   1. 介绍 Kubernetes 和 API Server
 
   \- 介绍Kubernetes的起源、发展历程和生态系统，包括主要组件和项目
 
